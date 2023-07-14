@@ -1,0 +1,551 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 20px 120px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.heading_white {
+    color: white;
+    padding-top: 100px;
+    font-size: 2rem;
+}
+
+.heading_black {
+    color: black;
+    padding-top: 50px;
+    font-size: 2rem;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 450;
+    margin-left: 35px;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+section {
+    height: 100vh;
+}
+
+.removeunderline {
+    text-decoration: none;
+    color: white;
+}
+
+#viewmore {
+    background-color: aqua;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+}
+
+
+#videotour {
+    background-color: transparent;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+}
+
+
+.welcometext {
+    margin-left: 150px;
+
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    margin-top: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("Image/HomeBG.png");
+
+}
+
+
+/*Team members*/
+
+
+#Team {
+    height: 85vh;
+}
+
+.team_class {
+    margin-left: 150px;
+    width: 70%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.team_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team_member {
+    margin-bottom: 10px;
+
+}
+
+.team_member:hover {
+    transform: scale(1.1);
+}
+
+.team_anchor {
+    width: 100%;
+    height: 0px;
+    background: linear-gradient(to bottom, rgba(248, 249, 248, 0), rgb(128, 124, 124));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+
+.team_member:hover .team_anchor {
+    height: 100%;
+}
+
+.team_img {
+    height: 250px;
+    width: 200px;
+}
+
+.team_icon {
+    color: white;
+}
+
+
+/*Lovely work*/
+
+
+#Work {
+    background-color: rgb(58, 62, 62);
+
+}
+
+.work_class {
+    margin-left: 150px;
+    width: 70%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.work_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work_item {
+    margin-bottom: 10px;
+    flex: 0 0 33.33333%;
+    padding: 15px;
+}
+
+.work_item:hover {
+    transform: scale(1.1);
+}
+
+.work_img {
+    height: 200px;
+    width: 250px;
+}
+
+.work_anchor {
+    width: 70%;
+    height: 0px;
+    background: linear-gradient(to bottom, rgba(248, 249, 248, 0), rgba(255, 250, 250, 0));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+.work_item:hover .work_anchor {
+    height: 100%;
+}
+
+#work_btn {
+    position: absolute;
+    left: 40%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#work_btn a {
+    color: white;
+}
+
+
+/* Services*/
+
+
+.services_class {
+    margin-left: 150px;
+    width: 90%;
+}
+
+.services_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services_box1 {
+    width: calc(25% - 15px);
+    margin-bottom: 20px;
+}
+
+.services_img {
+    height: 80px;
+    width: 80px;
+}
+
+.services_head {
+    margin: 10px;
+    width: max-content;
+}
+
+.services_desc {
+    margin: 10px;
+    width: 200px;
+    justify-content: center;
+}
+
+
+
+/*Features*/
+
+
+#Features {
+    background-color: rgb(58, 62, 62) ;
+}
+
+.Features {
+    margin-left: 150px;
+    width: 80%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+}
+
+.features_img {
+    height: 280px;
+    width: 350px;
+    padding: 15px;
+}
+
+.features_head {
+    color: white;
+    padding: 20px;
+}
+
+.features_desc {
+    color: white;
+    padding: 10px;
+}
+
+
+
+/* Services */
+
+
+
+.about {
+    background-color: white;
+    color: black;
+    margin-left: 150px;
+    font-size: 2rem;
+    width: 75vw;
+}
+
+.about_para {
+    color: black;
+    font-size: medium;
+    width: 550px;
+    margin-right: 50px;
+}
+
+.row {
+    display: flex;
+}
+
+.about_row {
+    color: white;
+    background-color: rgb(11, 140, 140);
+    margin: 11px;
+    width: 40px;
+    padding: 5px;
+}
+
+.column2 {
+    display: inline-block;
+}
+
+.about_row1 {
+    padding: 5px;
+    width: 400px;
+}
+
+.about_row2 {
+    margin-top: 47px;
+    width: 400px;
+}
+
+.about_row3 {
+    margin-top: 33px;
+    width: 400px;
+}
+
+
+
+/*contact us*/
+
+
+.contact_class {
+    margin-left: 150px;
+
+}
+
+.contact_row {
+    display: flex;
+}
+
+.contact_left {
+    display: inline-block;
+    position: absolute;
+    margin: 350px 0px 0px 150px;
+    width: 600px;
+    /* float: left; */
+}
+
+.contact_right {
+    display: flex;
+    margin-top: 200px;
+    margin-left: 900px;
+    height: 400px;
+    width: 320px;
+    background-color: white;
+    border: 0.1px solid black;
+    padding: 35px 0px 5px 25px;
+
+}
+
+
+iframe {
+    position: absolute;
+    left: 0px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url(Image/map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.input_from {
+    margin-top: 10px;
+}
+
+/*Social media*/
+
+.social-icons {
+    display: flex;
+    margin: 100px 5px 0px 5px;
+
+}
+
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    padding: 3px;
+    background: linear-gradient(45deg, rgb(106, 105, 103), rgb(106, 105, 103));
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 1rem;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.25);
+}
+
+.copyright {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    padding: 25px;
+    padding-left: 200px;
+    /* background: #4b4a4a; */
+    background-color: rgb(58, 62, 62);
+    font-weight: 300;
+    margin-top: 20vh;
+}
+
+.copyright_right {
+    float: right;
+    padding-right: 100px;
+}
+
+.copyright_right a {
+    color: white;
+    padding: 10px;
+}
+
+
+/*Form*/
+
+form input,
+form textarea {
+    width: 250px;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #4b4a4a;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    background-color: #4b4a4a;
+    transition: background0.5s;
+}
+
+.btn:hover {
+    background: #ff004f;
+}
+
+#msg {
+    color: green;
+    margin-top: 380px;
+    margin-left: 0px;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+}
+
+@media (min-width:992px) and (max-width:1200px){
+    header{
+        width: 1400px;
+    }
+    #Home{
+        width: 1400px;
+    }
+    #Team{
+        height: 800px;
+    }
+    #Work{
+        height: 850px;
+        background-color: rgb(58, 62, 62);
+        width: 1400px;
+    }
+    #Features{
+        width: 1400px;
+        background-color: rgb(58, 62, 62);
+    }
+    iframe{
+        width: 1400px;
+    }
+    copyright{
+        
+        flex-direction: column;
+        width: 1400px;
+        background-color: rgb(58, 62, 62);
+    }
+}
